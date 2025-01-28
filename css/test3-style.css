@@ -1,0 +1,17 @@
+/* camel case : stuFinalSAU */
+/* pascal case : StuFinalSAU */
+/* kebab case : stu-final-sau ใช้ได้แค่กับเว็บ แอปไม่ได้*/
+/* snake case : stu_final_sau */
+
+/* CSS แบบที่ 3 External style */
+/* selector {property: value} */
+h1{
+    text-align: center;
+    color: green;
+}
+p{
+    font-weight: bold;
+}
+h3{
+    color: red;
+}
