@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter{
+            color: red;
+            font-size: 50px;
+            background-color: greenyellow;
+        }
+        p::first-line{
+            color: blue;
+        }
+        h2::after , h4::after{
+            content: "!!!";
+            background-color: red;
+        }
+        h1::before{
+            content: url(p2.png);
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to SAU</h1>
+    <strong>ELECT แบบที่ 11 :Pseudo Element Selector</strong>
+    <!-- จะมี S ตัวเดียวแต่จะคั่นด้วย :: การทำงานจะขึ้นอยู่กับ PE ที่เลือกใช้ -->
+    <h2>สวัสดี</h2>
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit, eligendi?
+    </p>
+    <h4>Wow Wow Wow</h4>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore, ullam?
+    </p>
+</body>
+</html>

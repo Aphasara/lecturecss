@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #wow + p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Aphasara</h1>
+    <strong>SELECT แบบที่ 9 : Adjacent Selector</strong>
+    <!-- คือ ต้องมี S1 S2 คั่นด้วยเครื่องหมายมากกว่า + หมายถึง S2 ตัวแรกที่เจอที่อยู่ถัดจาก S1 -->
+     <div id="wow">
+        <p>111111</p>
+        <p>222222</p>
+        <span>333333</span>
+        <div id="woo">
+            <p>444444</p>
+            <div id="wee">
+                <p>555555</p>
+            </div>
+            <p>666666</p>
+        </div>
+        <p>777777</p>
+        <span>888888</span>
+     </div>
+     <p>999999</p>
+     <span>AAAAAA</span>
+     <p>BBBBBB</p>
+</body>
+</html>
